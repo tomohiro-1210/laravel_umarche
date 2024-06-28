@@ -1,8 +1,3 @@
-<p class="text-red-300">コンポーネントテスト２</p>
-<style>
-    p{
-        color: #0088a2;
-        font-weight: 500;
-        font-size: 20px;
-    }
-</style>
+<x-tests.app>
+<p class="text-green-500 my-2 mx-2 px-2 py-2">コンポーネントテスト2</p>
+</x-tests.app>
