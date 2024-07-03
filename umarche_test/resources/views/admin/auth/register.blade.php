@@ -11,7 +11,7 @@
 
         <form method="POST" action="{{ route('admin.register') }}">
             @csrf
-            <p class="text-red-500 font-bold">お客様用登録画面</p>
+            <p class="text-red-500 font-bold">管理者用登録画面</p>
 
             <!-- Name -->
             <div>

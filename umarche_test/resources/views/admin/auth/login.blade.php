@@ -16,7 +16,7 @@
 
         <form method="POST" action="{{ route('admin.login') }}">
             @csrf
-            <p class="text-red-500 font-bold">お客様用ログイン画面</p>
+            <p class="text-red-500 font-bold">管理者用ログイン画面</p>
 
             <!-- Email Address -->
             <div>

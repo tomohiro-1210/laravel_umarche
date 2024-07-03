@@ -11,7 +11,7 @@
 
         <form method="POST" action="{{ route('user.register') }}">
             @csrf
-            <p class="text-orange-500 font-bold">ユーザー用登録画面</p>
+            <p class="text-orange-500 font-bold">お客様用登録画面</p>
 
             <!-- Name -->
             <div>

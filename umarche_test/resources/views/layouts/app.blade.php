@@ -24,6 +24,7 @@
                 @include('layouts.owner-navigation')
             @elseif(auth('users')->user())
                 @include('layouts.user-navigation')
+            @endif
 
             <!-- Page Heading -->
             <header class="bg-white shadow">
