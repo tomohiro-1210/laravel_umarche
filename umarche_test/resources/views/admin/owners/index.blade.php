@@ -32,7 +32,7 @@
                                         <td class="px-4 py-3 text-gray-900">{{ $owner->name }}</td>
                                         <td class="px-4 py-3 text-gray-900">{{ $owner->email }}</td>
                                         <td class="px-4 py-3 text-gray-900">{{ $owner->created_at }}</td>
-                                        <td class="px-4 py-3 text-gray-900"><button class="flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">詳細</button></td>
+                                        <td class="px-4 py-3 text-gray-900"><button onclick="location.href='{{ route('admin.owners.edit' , ['owner' => $owner->id]) }}'" class="flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">編集する</button></td>
                                     @endforeach
                                     </tr>
                                 </tbody>
