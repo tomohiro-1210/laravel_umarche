@@ -21,6 +21,7 @@
                         <!-- オーナー登録フォーム -->
                         <div class="lg:w-1/2 md:w-2/3 mx-auto">
                             <form method="POST" action="{{ route('admin.owners.update' , ['owner' => $owner->id]) }}">
+                                @method('PUT')
                                 @csrf
                                 <div class="flex flex-wrap -m-2">
                                     <div class="p-2 w-full">
